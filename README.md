@@ -66,7 +66,7 @@ jobs:
             - name: Second Step
               run: echo 'This is second step'
     second-job:
-        run-ons: ubuntu-latest
+        runs-on: ubuntu-latest
         steps:
             - name: Start Second job
               run: echo 'Hello Second Job'
